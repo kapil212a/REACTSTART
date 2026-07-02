@@ -1,4 +1,6 @@
 import Product from "./Product.jsx";
+import "./MsgBox.jsx";
+import MsgBox from "./MsgBox.jsx";
 function ProductTab(){
     let option = ["hi-tech" , "durable", "fast"];
     // let option2 = {a : "hi-tech" , b : "durable" , c : "fast"};
