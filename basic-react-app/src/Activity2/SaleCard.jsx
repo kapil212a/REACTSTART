@@ -1,4 +1,4 @@
-import SalePrice from "./SalePrice";
+import SalePrice from "./Activity2/SalePrice";
 
 import "./SaleCard.css";
 function SaleCard({name, discription, about, idx}){
