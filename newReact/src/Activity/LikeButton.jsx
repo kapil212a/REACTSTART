@@ -12,7 +12,7 @@ export default function LikeButton(){
     let st = {color : "red"};
     return(
         <div>
-            <p>count = {click}</p>
+            <p>count = {click}</p> 
             <p onClick={clicked}>{isLike ? <i className ="fa-solid fa-heart" style={st} ></i> : <i className ="fa-regular fa-heart"></i>}</p>
         </div>
     )
