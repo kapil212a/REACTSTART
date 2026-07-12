@@ -6,11 +6,13 @@ export default function TodoList(){
     let addNewTask = () => {
         //console.log("new task added");
         setTodo([...todos , newTodo]);
+        setNewTodo("");
     }
 
     let updateTodoValue = (event) => {
         //console.log(event.target);
         setNewTodo(event.target.value);
+        
     }
     return(
         <div>
